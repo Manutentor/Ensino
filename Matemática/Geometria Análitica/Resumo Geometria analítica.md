@@ -5,7 +5,6 @@ Geometria analítica e suas relações com o mundo
 
 1 Matrizes e sistemas lineares
 
-
 1.1 Matrizes
 
 1.2 Soma e subtração de matrizes
@@ -36,4 +35,29 @@ Geometria analítica e suas relações com o mundo
   P(x,y) > P(1,1)
  II. Sistema Possível e Indeterminado (SPI): infinitas combinações
  III. Sistema Impossível (SI): sem solução ou sem ponto algum em comum
-1.5.2 Sistemas lineares: interpretação no R³
+1.5.2 Sistemas lineares: interpretação no R³: Metodo adição e Método de Cramer
+
+1.6 Método de Cramer
+1.6.1 Calculando pelo métpdp de Cramer
+ I. Calcular o determinante principal (D)
+  (x + y + z = 3)         |1  1  1|
+  (x + 2y -z = 2) ->  D = |1  2 -1|  ->  D = -10
+  (2x -y -2z = -1)        |2 -1 -2|
+ II. Calcular o determinante da incógnita x (Dx)
+  (x + y + z = 3)         |3  1  1|
+  (x + 2y -z = 2) ->  D = |2  2 -1|  ->  D = -10
+  (2x -y -2z = -1)        |-1 -1 -2|
+ III. Calcular o determinante da incógnita y (Dy)
+  (x + y + z = 3)         |1  3  1|
+  (x + 2y -z = 2) ->  D = |1  2 -1|  ->  D = -10
+  (2x -y -2z = -1)        |2 -1 -2|
+ IV. Calcular o determinante da incógnita z (Dy)
+  (x + y + z = 3)         |1  1  3|
+  (x + 2y -z = 2) ->  D = |1  2  2|  ->  D = -10
+  (2x -y -2z = -1)        |2 -1 -1|
+  V. Calcular x = Dx/D, y = Dy/D e z = Dz/D
+   x = y = z = 1
+1.6.2 Classificando os sistemas lineares usando Cramer
+ I. SPD se D,Dx,Dy e Dz for ≠ de 0
+ II. SPI se D = 0 e Dx,Dy ou Dz for = 0
+ III. SI se D = 0 e Dx,Dy ou Dz for ≠ 0
