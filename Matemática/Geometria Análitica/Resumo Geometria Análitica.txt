@@ -61,3 +61,10 @@ Geometria analítica e suas relações com o mundo
  I. SPD se D,Dx,Dy e Dz for ≠ de 0
  II. SPI se D = 0 e Dx,Dy ou Dz for = 0
  III. SI se D = 0 e Dx,Dy ou Dz for ≠ 0
+
+
+2 Vetores
+
+2.1 A geometria analítica
+2.2 O plano cartesiano
+2.3 Vetores: módulo e sentido
