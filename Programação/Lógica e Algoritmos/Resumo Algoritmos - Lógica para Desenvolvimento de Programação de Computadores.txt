@@ -1,0 +1,27 @@
+Algoritmos - Lógica para Desenvolvimento de Programação de Computadores
+José Augusto N. G. Manzano; Jayr Figueiredo de Oliveira
+
+
+1 Abordagem Contextual
+1.1 Introdução à Computação
+1.1.1 Organização de um Computador
+1.1.1.1 Unidade lógica e aritmética: responsavel por processar operações matemáticas
+1.1.1.2 Registradores: são memorias de alta velocidade de processamento
+1.1.1.3 Unidade de controle: executa instruções de controle do computador
+1.1.1.4 Memória RAM: volátil e rapida
+1.1.1.5 Memória ROM: ReadOnly Memory. Não volatil e lento
+1.1.2 Unidades de Medidas Computacionais
+1.1.3 Tabela ASCII
+1.1.4 Dados e Informação
+
+1.2 Mercado Computacional
+
+1.3 Linguagens de Programação
+1.3.1 Linguagem Procedural: programação estruturada, interligados
+1.3.2 Linguagem declarativa: estática, liguagem de marcação
+1.3.3 Linguagem orientada a objetos: composições e interações de objetos
+1.3.4 Linguagem concorrente: execução rotinas em paralelo
+1.3.5 Linguagem de consulta: extração de informações de base de dados
+1.3.6 Linguagem de especificação: documentação descritiva de um sistema
+
+1.4 Paradigmas de Programação
