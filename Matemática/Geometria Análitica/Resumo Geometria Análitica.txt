@@ -68,3 +68,11 @@ Geometria analítica e suas relações com o mundo
 2.1 A geometria analítica
 2.2 O plano cartesiano
 2.3 Vetores: módulo e sentido
+2.3.1 Vetores iguais
+2.3.2 Vetores paralelos
+2.3.3 Vetor nulo
+2.3.4 Vetores opostos
+2.3.5 Vetor unitário
+2.3.6 Vetores ortogonais: angulo reto 90º
+2.3.7 Vetores coplanares: mesmo plano
+2.4 Módulo de um vetor
