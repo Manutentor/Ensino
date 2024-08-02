@@ -76,3 +76,6 @@ Geometria analítica e suas relações com o mundo
 2.3.6 Vetores ortogonais: angulo reto 90º
 2.3.7 Vetores coplanares: mesmo plano
 2.4 Módulo de um vetor
+2.4.1 |v¨| = √(x² + y²) ou |v¨| = √(x² + y² + z²)
+2.5 Inclinação de um vetor
+2.5.1 tg(angulo) = y/x -> angulo = arco tangente . tg(angulo)
