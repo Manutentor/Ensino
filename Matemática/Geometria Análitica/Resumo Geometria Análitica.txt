@@ -79,3 +79,25 @@ Geometria analítica e suas relações com o mundo
 2.4.1 |v¨| = √(x² + y²) ou |v¨| = √(x² + y² + z²)
 2.5 Inclinação de um vetor
 2.5.1 tg(angulo) = y/x -> angulo = arco tangente . tg(angulo)
+
+3 Operações com vetores
+
+3.1 Multiplicação por escalar
+3.1.1 k . v = (k.v1, k.v2, ... k.vn)
+3.2 Some e subtração de vetores
+3.2.1 u¨ +- v¨ = (u1 +- v1, u2 +- v2, ... un +- vn)
+3.3 Produto escalar
+3.3.1 u¨ x v¨= |u¨| . |v¨| . cos0
+3.4 Produto vetorial
+3.4.1 u¨ x v¨= (u2.v3 - u3.v2).i¨ + (u3.v1 - u1.v3)j¨ + (u1.v2 - u2.v1)k¨
+3.4.2 Regra de Sarrus: u¨x v¨= |i¨ j¨ k¨|
+                               |u1 u2 u3|
+                               |v1 v2 v3|
+3.4.3 |u¨ x v¨| = |u¨| . |v¨| . sen0
+3.5 Produto misto
+3.5.1 u¨.(v¨x w¨) = (v2.w3 - v3.w2).u1 + (v3.w1 - v1.w3).u2 + (v1.w2 - v2.w1).u3
+3.5.2 Regra de Sarrus: u¨.(v¨x w¨) = |u1 u2 u3|
+                                     |v1 v2 v3|
+                                     |w1 w2 w3|
+3.6 Ângulo entre vetores
+3.6.1 cos0 = (u¨.v¨) / |u¨|.|v¨|
