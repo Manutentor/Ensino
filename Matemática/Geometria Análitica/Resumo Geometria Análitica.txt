@@ -80,28 +80,36 @@ Geometria analítica e suas relações com o mundo
 2.5 Inclinação de um vetor
 2.5.1 tg(angulo) = y/x -> angulo = arco tangente . tg(angulo)
 
+
 3 Operações com vetores
 
 3.1 Multiplicação por escalar
 3.1.1 k . v = (k.v1, k.v2, ... k.vn)
+
 3.2 Some e subtração de vetores
 3.2.1 u¨ +- v¨ = (u1 +- v1, u2 +- v2, ... un +- vn)
+
 3.3 Produto escalar
 3.3.1 u¨ x v¨= |u¨| . |v¨| . cos0
+
 3.4 Produto vetorial
 3.4.1 u¨ x v¨= (u2.v3 - u3.v2).i¨ + (u3.v1 - u1.v3)j¨ + (u1.v2 - u2.v1)k¨
-3.4.2 Regra de Sarrus: u¨x v¨= |i¨ j¨ k¨|
-                               |u1 u2 u3|
-                               |v1 v2 v3|
+3.4.2 Regra de Sarrus:
+ u¨x v¨= |i¨ j¨ k¨|
+         |u1 u2 u3|
+         |v1 v2 v3|
 3.4.3 |u¨ x v¨| = |u¨| . |v¨| . sen0
+
 3.5 Produto misto
 3.5.1 u¨.(v¨x w¨) = (v2.w3 - v3.w2).u1 + (v3.w1 - v1.w3).u2 + (v1.w2 - v2.w1).u3
 3.5.2 Regra de Sarrus: 
  u¨.(v¨x w¨) = |u1 u2 u3|
                |v1 v2 v3|
                |w1 w2 w3|
+
 3.6 Ângulo entre vetores
 3.6.1 cos0 = (u¨.v¨) / |u¨|.|v¨|
+
 
 4 Retas
 
@@ -109,14 +117,18 @@ Geometria analítica e suas relações com o mundo
 I. Equação geral da reta: Ax + By + C = 0
 II. Equação reduzida da reta: y = a.x + b
   a = coeficiente angular e b = coeficiente linear da reta
+
 4.2 Posição relativa entre um ponte e uma reta no R²
 4.2.1 Ponto pertencente e não pertencente à reta
-4.2.2 Distância entre um ponto não pertencente e uma reta: d = |A.Xp + B.Yp + C| / √ (A² + B²)
+4.2.2 Distância entre um ponto não pertencente e uma reta
+ d = |A.Xp + B.Yp + C| / √ (A² + B²)
+
 4.3 Posições relativas de duas retas no R²
 4.3.1 Cocorrentes se Ar(tg(alfa)) ≠ As(tg(beta))
 4.3.2 Paralelas se Ar(tg(alfa)) = As(tg(beta)) e Br ≠ Bs
 4.3.3 Perpendiculares se Ar inverso de Ar (denominador e operador) e oposto (sinal). As = -1 / Ar
 4.3.4 Ângulo entre duas retas concorrentes: tg(0) = |Ar - As| / |1 + Ar . As|
+
 4.4 Retas no R³
 4.4.1 Equação vetorial paramétrica da reta: 
  {X = Xa + pa
@@ -129,3 +141,69 @@ II. Equação reduzida da reta: y = a.x + b
 4.4.3 Equação reduzida da reta
   r: {Y = m1x + n1
      {Z = m2x + n2
+4.4.4 Condição para que três pontos estejam alinhados
+ Área = 0 -> |Xa Ya 1| = 0
+             |Xb Yb 1|
+             |Xc Yc 1|
+ (w¨,u¨,x¨) = 0 -> |Xa Ya Za| = 0
+                   |Xb Yb Zb|
+                   |Xc Yc Zc|
+4.4.5 Construindo uma reta por meio de dois ponto no R² (plano  xy)
+  |Xa Ya 1| = 0
+  |Xb Yb 1|
+  |X  Y  1|
+
+4.5 Posições relativas de duas retas no R³
+4.5.1 Paralelismo entre retas: vetores diretores proporcioanais
+ Ar/As = Br/Bs = Cr/Cs
+4.5.2 Ortogonalidade entre duas retas: produto escalar entre vetores diretores das retas é nulo
+ v¨r . v¨s = (ar, br, cr) . (as, bs, cs) = 0
+4.5.3 Coplanaridade entre duas retas: produto misto entre vetores diretores e o vetor entre pontos seja nulo
+ (v¨r, v¨s, AB¨) = 0 -> |ar    br    cr   | = 0
+                        |as    bs    cs   |
+                        |XB-XA Yb-Ya Zb-Za|
+
+
+5 Planos
+
+5.1 Equação geral do plano
+ Ax + By + Cz + D = 0
+5.1.1 Equação geral do plano por um ponto e dois vetores
+ plano: |X-X0 Y-Y0 Z-Z0| = 0
+        |a    b    c   |
+        |m    n    l   |
+5.1.2 Equação geral do plano por dois pontos e um vetor
+ plano: |X-X1  Y-Y1  Z-Z1 | = 0
+        |X2-X1 Y2-Y1 Z2-Z1|
+        |a     b     c    |
+5.1.3 Equação geral do plano por três pontos não colineares
+ plano: |X-X1  Y-Y1  Z-Z1 | = 0
+        |X2-X1 Y2-Y1 Z2-Z1|
+        |X3-X1 Y3-Y1 Z3-Z1|
+
+5.2 Posições relativas de um ponto e um plano
+5.2.1 substituir ponto na equação do plano ser igual a zero
+
+5.3 Plano e intersecção com os eixos coordenados
+ II. Px = (x,0,0) ponto pertence ao eixo x;
+ II. Py = (0,y,0) ponto pertence ao eixo y;
+ III. Pz = (0,0,z) ponto pertence ao eixo z;
+
+5.4 Vetor normal ao plano (n¨)
+ plano: ax + by + cz + d = 0 
+ vetor: n¨ = (a,b,c)
+
+5.5 Posição relativa entre dois planos
+5.5.1 Paralelismo entre dois planos
+ Aa/Ab = Ba/Bb = Ca/Cb e Da ≠ Db
+5.5.2 Ortogonalidade entre dois planos
+ Aa.Ab + Ba.Bb + Ca.Cb = 0
+
+5.6 Distância entre um ponto e um plano
+ d(Ponto,plano) = |A.Xp + B.Yp + C.Zp + D| / √ (A² + B² + C²)
+
+5.7 Ângulo entre dois planos
+ cos(0) = |Aa.Ab + Ba.Bb + Ca.Cb| / √ (Aa² + Ba² + Ca²) . √ (Ab² + Bb² + Cb²)
+
+
+6 Cônicas
