@@ -96,8 +96,36 @@ Geometria analítica e suas relações com o mundo
 3.4.3 |u¨ x v¨| = |u¨| . |v¨| . sen0
 3.5 Produto misto
 3.5.1 u¨.(v¨x w¨) = (v2.w3 - v3.w2).u1 + (v3.w1 - v1.w3).u2 + (v1.w2 - v2.w1).u3
-3.5.2 Regra de Sarrus: u¨.(v¨x w¨) = |u1 u2 u3|
-                                     |v1 v2 v3|
-                                     |w1 w2 w3|
+3.5.2 Regra de Sarrus: 
+ u¨.(v¨x w¨) = |u1 u2 u3|
+               |v1 v2 v3|
+               |w1 w2 w3|
 3.6 Ângulo entre vetores
 3.6.1 cos0 = (u¨.v¨) / |u¨|.|v¨|
+
+4 Retas
+
+4.1 Retas no R²
+I. Equação geral da reta: Ax + By + C = 0
+II. Equação reduzida da reta: y = a.x + b
+  a = coeficiente angular e b = coeficiente linear da reta
+4.2 Posição relativa entre um ponte e uma reta no R²
+4.2.1 Ponto pertencente e não pertencente à reta
+4.2.2 Distância entre um ponto não pertencente e uma reta: d = |A.Xp + B.Yp + C| / √ (A² + B²)
+4.3 Posições relativas de duas retas no R²
+4.3.1 Cocorrentes se Ar(tg(alfa)) ≠ As(tg(beta))
+4.3.2 Paralelas se Ar(tg(alfa)) = As(tg(beta)) e Br ≠ Bs
+4.3.3 Perpendiculares se Ar inverso de Ar (denominador e operador) e oposto (sinal). As = -1 / Ar
+4.3.4 Ângulo entre duas retas concorrentes: tg(0) = |Ar - As| / |1 + Ar . As|
+4.4 Retas no R³
+4.4.1 Equação vetorial paramétrica da reta: 
+ {X = Xa + pa
+ {Y = Ya + pb
+ {Z = Za + pc
+4.4.2 Equação de reta por dois pontos distintos (no espaco - R³):
+ {X = Xa + p(Xb - Xa)
+ {Y = Ya + p(Yb - Ya)
+ {Z = Za + p(Zb - Za)
+4.4.3 Equação reduzida da reta
+  r: {Y = m1x + n1
+     {Z = m2x + n2
